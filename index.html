@@ -1101,7 +1101,7 @@
   document.getElementById('grid-her').innerHTML = her.map(p => card(p, 350, "100ml")).join('');
   document.getElementById('grid-unisex').innerHTML = unisex.map(p => card(p, 350, "100ml")).join('');
   document.getElementById('grid-lattafa').innerHTML = lattafa.map(p => card(p, 180, "30ml")).join('');
-  document.getElementById('grid-discovery').innerHTML = discoverySets.map(p => card(p, 650, "4x30ml")).join('');
+  document.getElementById('grid-discovery').innerHTML = discoverySets.map(p => card(p, 350, "4x30ml")).join('');
   document.getElementById('grid-new').innerHTML = lattafa.map(p => card(p, 180, "30ml", true)).join('');
 
   // Shop tab switching
@@ -1153,7 +1153,7 @@
       document.getElementById('grid-her').innerHTML = her.map(p => card(p, 350, "100ml")).join('');
       document.getElementById('grid-unisex').innerHTML = unisex.map(p => card(p, 350, "100ml")).join('');
       document.getElementById('grid-lattafa').innerHTML = lattafa.map(p => card(p, 180, "30ml")).join('');
-      document.getElementById('grid-discovery').innerHTML = discoverySets.map(p => card(p, 650, "4x30ml")).join('');
+      document.getElementById('grid-discovery').innerHTML = discoverySets.map(p => card(p, 350, "4x30ml")).join('');
       return;
     }
     shopTabs.forEach(t => t.classList.remove('active'));
